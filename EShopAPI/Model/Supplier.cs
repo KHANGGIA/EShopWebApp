@@ -12,11 +12,13 @@ namespace EShopAPI.Model
         public string Email { get; set; } 
         public string City { get; set; } 
         public string Country { get; set; } 
-        public string PaymentMethod { get; set; } 
+        public int PaymentID { get; set; } 
         public string DiscountType { get; set; } 
         public Status DiscountStatus { get; set; }
         public string? Note { get; set; } 
         public string Logo { get; set; } 
         public string URL { get; set; }
+
+        public Payment Payment { get; set; }
     }
 }

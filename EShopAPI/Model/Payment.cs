@@ -7,5 +7,6 @@ namespace EShopAPI.Model
         public int PaymentID { get; set; }
         public string PaymentType { get; set; } 
         public Confirm Allowed { get; set; }
+        public List<Supplier> Suppliers { set; get; }
     }
 }

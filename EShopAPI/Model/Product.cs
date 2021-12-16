@@ -8,7 +8,7 @@ namespace EShopAPI.Model
         public string? SKU { get; set; }
         public string ProductName { get; set; }
         public string Description { get; set; }
-        public decimal UnitPrice { get; set; }
+        public decimal Price { get; set; }
         public decimal OriginalPrice { set; get; }
         public int Stock { set; get; }
         public int SupplierID { get; set; }

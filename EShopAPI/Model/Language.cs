@@ -7,5 +7,7 @@ namespace EShopAPI.Model
         public string LanguageID { get; set; } 
         public string Name { get; set; } 
         public Confirm IsDefault { get; set; }
+        public List<ProductTranslation> ProductTranslations { get; set; }
+        public List<CategoryTranslation> CategoryTranslations { get; set; }
     }
 }
