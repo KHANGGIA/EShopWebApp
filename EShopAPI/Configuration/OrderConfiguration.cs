@@ -15,6 +15,7 @@ namespace EShopAPI.Configuration
             builder.Property(x => x.Paid).HasDefaultValue(Confirm.Yes);
             builder.Property(x => x.Deleted).HasDefaultValue(Confirm.Yes);
             builder.Property(x => x.OrderDate).HasDefaultValue(DateTime.Now);
+            builder.HasOne(x => x.AppUser).WithMany(x => x.Orders).HasForeignKey(x => x.UserId);
         }
     }
 }

@@ -19,6 +19,7 @@ namespace EShopAPI.Model
 
         public List<OrderDetail> OrderDetails { get; set; }
         public Payment Payment { get; set; }
- 
+        public AppUser AppUser { get; set; }
+
     }
 }
