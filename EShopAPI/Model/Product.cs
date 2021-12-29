@@ -16,6 +16,7 @@ namespace EShopAPI.Model
         public string? Color { get; set; }
         public Confirm ProductStatus { get; set; }
         public DateTime DateCreated { set; get; }
+        public bool? IsFeatured { get; set; }
         public int ViewCount { set; get; }
         public string SeoAlias { set; get; }
 
